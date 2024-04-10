@@ -1,0 +1,232 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+}
+.listitems{
+    margin-left: 100px;
+}
+.logo img{
+    width: 180px;
+    height: 115px;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    z-index: 2;
+}
+nav{
+    top: 0;
+    background-color: #b790be;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    height: 75px;
+}
+nav ul{
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: flex;
+    color: rgb(86, 2, 54);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav a:hover{
+    color: black;
+}
+nav a:active{
+    color: black;
+}
+nav input[type="submit"]{
+    background: transparent;
+    color: rgb(86, 2, 54);
+    font-size: 16px;
+    border: 1px solid rgb(86, 2, 54);
+    border-radius: 15px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    color: white;
+    background: #4b015f80;
+}
+section{
+    margin-left: 120px;
+    padding-top: 100px;
+    max-height: fit-content;
+    min-height: 85vh;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+h1{
+    color: #290030;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 30px;
+    color: #4b3954;
+    font-family: cursive;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home{
+    margin: 0;
+    background-color: #b790be;
+    min-height: 60vh;
+}
+.homedetails{
+    display: flex;
+}
+.img{
+    position: relative;
+    top: 100px;
+    max-width: 50%;
+    right: 100px;
+    margin-bottom: 0;
+}
+.homeinfo{
+    padding: 150px;
+    width: 50%;
+}
+.homeinfo button{
+    margin: 40px;
+    width: 160px;
+    height: 50px;
+    color: beige;
+    background: #674a67;
+    border: none;
+    border-radius: 50px;
+}
+.homeinfo button:hover{
+    background: #4e3954;
+    box-shadow: 1px 3px 4px 2px rgba(74, 64, 57, 0.3);
+}
+.homeinfo button i{
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+.elements-container{
+    margin-left: 60px;
+    padding-left: 0;
+    height: 120vh;
+}
+.elements{
+    display: flex;
+}
+.items{
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    background-color: #b88fd178;
+    margin: 30px;
+    padding: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.about p{
+    max-width: 80%;
+}
+.photo{
+    max-width: 50%;
+    position: relative;
+    right: 150px;
+    top: 10px;
+}
+.details{
+    margin-left: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    color: #130d0a;
+}
+.details h3{
+    padding: 0;
+}
+footer{
+    display: flex;
+    padding: 40px;
+    height: 30vh;
+    background: #594a67;
+}
+footer h2{
+    color: #1a141e;
+    font-size: 25px;
+}
+.info{
+    width: 40%;
+}
+.info h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.explore{
+    width: 20%;
+}
+.explore h2{
+    margin-bottom: 10px;
+}
+.explore ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.explore li a{
+    display: flex;
+    color: #130d0a;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.follow{
+    width: 20%;
+}
+.follow h2{
+    margin-bottom: 15px;
+}
+.follow a{
+    padding: 10px 10px;
+    font-size: 22px;
+    color: #130d0a;
+    text-align: center;
+    text-decoration: none;
+}
+.contact h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #1a141e;
+    font-family: cursive;
+}
+.contact span{
+    font-size: 18px;
+    color: black;
+}
